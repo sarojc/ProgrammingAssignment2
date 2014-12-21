@@ -39,7 +39,7 @@ cacheSolve <- function(x, ...) {
             return(inverse)
         }
   
-        ## Object is not in cache, computes the cache, stores in cache and returns 
+        ## Object is not in cache, computes the inverse, stores in cache and returns 
         ## the object.
         data <- x$get()
         inverse <- solve(data)
